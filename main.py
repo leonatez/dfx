@@ -236,7 +236,7 @@ if tab == "Create Groups":
     st.markdown("Group files with the same template together for processing")
     
     # Group creation form
-    with st.form("group_form"):
+    with st.form("group_form", clear_on_submit=True):
         st.subheader("Group Configuration")
         
         col1, col2 = st.columns(2)
