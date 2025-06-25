@@ -1,0 +1,17 @@
+{
+  "workflow_name": "workflow_20250626_061848",
+  "actions": [
+    {
+      "type": "rename_column",
+      "group": "Sales",
+      "old_name": "Customer_ID",
+      "new_name": "Ma_KH"
+    }
+  ],
+  "created_date": "2025-06-26T06:18:48.996652",
+  "total_actions": 1,
+  "groups_used": [
+    "Sales"
+  ],
+  "version": "1.0"
+}
