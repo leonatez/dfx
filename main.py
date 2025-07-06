@@ -8,7 +8,7 @@ from datetime import datetime
 
 # Page configuration
 st.set_page_config(
-    page_title="DataFrame Extreme",
+    page_title="DataFrameX",
     page_icon="📊",
     layout="wide"
 )
@@ -713,8 +713,8 @@ if st.session_state.processed_groups:
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; padding: 2rem;">
-    <p>📊 DataFrame Extreme - Streamline your data processing workflow</p>
-    <p>Built with Streamlit • Process Excel files with ease</p>
+    <p>📊 DataFrameX - Streamline your data processing workflow</p>
+    <p>Linh Nguyen - ShopeePay Credit PM </p>
 </div>
 """, unsafe_allow_html=True)
 
