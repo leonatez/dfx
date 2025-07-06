@@ -717,3 +717,12 @@ st.markdown("""
     <p>Built with Streamlit • Process Excel files with ease</p>
 </div>
 """, unsafe_allow_html=True)
+
+hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+    """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
