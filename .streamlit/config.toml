@@ -1,0 +1,21 @@
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection=false
+
+[theme]
+base="light"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showSidebarNavigation = false
+
+[ui]
+hideTopBar = true
+
+[logger]
+level = "error"
+
